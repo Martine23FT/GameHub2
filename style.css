@@ -1,0 +1,107 @@
+/* BAKGRUNN */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', 'Poppins';
+}
+
+.Wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.Clear {
+    clear: both;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    padding-top: 43px;
+    padding-right: 0px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+}
+
+.Logo span {
+    color: #D22CF5;
+    font-weight: 800;
+    font-size: 38px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+.Logo a {
+    font-size: 38px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.Logo p {
+    font-size: 16px;
+    color: white;
+    line-height: 0%;
+
+}
+
+.Logo {
+    float: left;
+}
+
+
+/* NAVIGATION HEADER */
+
+nav {
+    background-color: #101018;
+    height: 62px;
+}
+
+.Navigation {
+    float: right;
+}
+
+nav ul {
+    font-size: 16px;
+    list-style: none;
+    color: white;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    margin-left: 80px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+    color: #D22CF5;
+    font-weight: 600;
+}
+
+
+/* FEATURED GAMES */
+
+main, 
+aside {
+    padding: 0px 50px 0px 50px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: white;
+}
+
+h2 span {
+    color: #FF6001;
+}
