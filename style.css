@@ -130,6 +130,40 @@ nav a {
     background-position: center center;
 }
 
+.Textbox {
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.56) 100%);
+    height: 270px;
+    width: 588px;
+    float: right;
+    margin-top: 500px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.Textbox h5 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-align: center;
+    letter-spacing: 5.4px;
+}
+
+.Textbox h6 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.Textbox button {
+    background-color: #FF6001;
+    height: 42px;
+    width: 150px;
+    border-radius: 60px;
+    margin-left: 220px;
+}
+
+
 /* FEATURED GAMES */
 
 
