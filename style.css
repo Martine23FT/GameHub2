@@ -19,9 +19,9 @@ body {
 
 header {
     background-color: black;
-    padding-top: 43px;
+    padding-top: 20px;
     padding-right: 0px;
-    padding-bottom: 24px;
+    padding-bottom: 10px;
     padding-left: 0px;
 }
 
@@ -81,18 +81,57 @@ nav a {
     font-family: 'Poppins', sans-serif;
 }
 
-nav a:hover {
+.selected {
     color: #D22CF5;
     font-weight: 600;
+    font-size: 16px;
 }
 
+.Searchbar {
+    background-color: white;
+    width: 490px;
+    height: 42px;
+    float: left;
+    margin-top: 18px;
+}
+
+.Searchbar input {
+    color: black;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border: none;
+    padding-left: 35px;
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 390px;
+}
+
+.Searchbar img {
+    height: 20px;
+    width: 20x;
+}
+
+.Searchbar button {
+    border: none;
+    background-color: #FF6001;
+    height: 42px;
+    width: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+/* BACKGROUND */
+
+.Background {
+    background-image: url(/Images/header.png);
+    width: 1440px;
+    height: 900px;
+    background-size: cover;
+    background-position: center center;
+}
 
 /* FEATURED GAMES */
 
-main, 
-aside {
-    padding: 0px 50px 0px 50px;
-}
 
 h2 {
     font-size: 20px;
@@ -100,8 +139,138 @@ h2 {
     font-weight: 400;
     letter-spacing: 0.4px;
     color: white;
+    padding: 20px 0px 20px 622px;
 }
 
 h2 span {
     color: #FF6001;
+}
+
+.Gallery {
+    background: linear-gradient(180deg, rgba(16, 16, 24, 0.9) 0%, rgba(16, 16, 24, 0) 100%);
+    width: 1440px;
+    height: 400px;
+}
+
+.Gallery ul {
+    padding-left: 100px;
+}
+
+.Gallery img {
+    height: 286px;
+    width: 224px;
+    object-fit: cover;
+}
+
+.Gallery li {
+    float: left;
+    margin: 40px;
+    background-color: #101018;
+    list-style: none;
+}
+
+.Gallery li:hover {
+    transform: scale(1.1);
+}
+
+.Gallery p {
+    color: white;
+    padding-left: 40px;
+}
+
+.Gallery a {
+    text-decoration: none;
+}
+
+.Line1 hr {
+    float: left;
+    margin-top: 30px;
+}
+
+.Line2 hr {
+    float: right;
+    margin-top: 30px;
+}
+
+
+/* MID-SECTION */
+
+main {
+    float: left;
+}
+
+main img {
+    width: 600;
+    height: 316px;
+    padding-left: 152px;
+}
+
+aside {
+    float: right;
+    padding-right: 81px;
+}
+
+aside h3 span{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 700;
+    color: #D22CF5;
+}
+
+aside h3 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+aside h4 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+main,
+aside {
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    height: 261px;
+    width: 1440px;
+    background-color: black;
+    list-style: none;
+}
+
+.Contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Contact li p {
+    font-size: 15px;
+}
+
+.About a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px 0px 200px 300px
+}
+
+.Follow img {
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
 }
