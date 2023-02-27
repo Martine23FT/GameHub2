@@ -145,6 +145,7 @@ nav a {
     font-family: 'Montserrat';
     text-align: center;
     letter-spacing: 5.4px;
+    line-height: 0px;
 }
 
 .Textbox h6 {
@@ -153,6 +154,7 @@ nav a {
     font-family: 'Montserrat';
     letter-spacing: 0.4px;
     text-align: center;
+    line-height: 0px;
 }
 
 .Textbox button {
@@ -161,6 +163,14 @@ nav a {
     width: 150px;
     border-radius: 60px;
     margin-left: 220px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.Textbox button:hover {
+    background-color: white;
 }
 
 
@@ -178,6 +188,16 @@ h2 {
 
 h2 span {
     color: #FF6001;
+}
+
+.Line1 hr {
+    float: left;
+    margin-top: 30px;
+}
+
+.Line2 hr {
+    float: right;
+    margin-top: 30px;
 }
 
 .Gallery {
@@ -199,7 +219,6 @@ h2 span {
 .Gallery li {
     float: left;
     margin: 40px;
-    background-color: #101018;
     list-style: none;
 }
 
@@ -207,23 +226,48 @@ h2 span {
     transform: scale(1.1);
 }
 
-.Gallery p {
-    color: white;
-    padding-left: 40px;
+.Game1 p {
+    width: 224px;
+    height: 42px;
+    background-color: #000000;
+    opacity: 80%;
+    margin-top: -46px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
-.Gallery a {
-    text-decoration: none;
+.Game2 p {
+    width: 224px;
+    height: 42px;
+    background-color: #000000;
+    opacity: 80%;
+    margin-top: -46px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
-.Line1 hr {
-    float: left;
-    margin-top: 30px;
+.Game3 p {
+    width: 224px;
+    height: 42px;
+    background-color: #000000;
+    opacity: 80%;
+    margin-top: -46px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
-.Line2 hr {
-    float: right;
-    margin-top: 30px;
+.Game4 p {
+    width: 224px;
+    height: 42px;
+    background-color: #000000;
+    opacity: 80%;
+    margin-top: -46px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
 
@@ -257,6 +301,7 @@ aside h3 {
     font-weight: 400;
     color: white;
     text-align: center;
+    inline-size: 360px;
 }
 
 aside h4 {
@@ -264,6 +309,11 @@ aside h4 {
     font-size: 28px;
     font-weight: 400;
     color: white;
+    text-align: center;
+}
+
+aside p {
+    inline-size: 360px;
     text-align: center;
 }
 
